@@ -1,0 +1,27 @@
+# ---- Secrets (never commit) ----
+.env
+.env.*
+!.env.example
+
+# ---- Node / Next.js (assignvault/) ----
+node_modules/
+.next/
+out/
+build/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+.vercel
+
+# ---- Python (converter/) ----
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# ---- Misc ----
+.DS_Store
+*.pem
+npm-debug.log*
+# Local build artifacts left in the tree
+assignvault/out.docx
